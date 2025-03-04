@@ -1,0 +1,92 @@
+[
+    {
+        "name": "swapx-ichi-ws-sts-sts",
+        "vault": "0x5555636503AE6EDE5d0109c5627b8f4B1250B096",
+        "lpToken": "0xa68D5DbAe00960De66DdEaD4d53faea39f21983b",
+        "token": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955"
+    },
+    {
+        "name": "swapx-ichi-ws-os-os",
+        "vault": "0x406568d72B086fA9Ad3ec2512f05BaFB24403911",
+        "lpToken": "0xc4A71981DC8ee8ee704b6217DaebAd6ECe185aeb",
+        "token": "0xb1e25689D55734FD3ffFc939c4C3Eb52DFf8A794"
+    },
+    {
+        "name": "swapx-ichi-usdc.e-scusd",
+        "vault": "0x11e9ba63182f152BB5385c0822fB84Cda92C125C",
+        "lpToken": "0xF77CeeD15596BfC127D17bA45dEA9767BC349Be0",
+        "token": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894"
+    },
+    {
+        "name": "swapx-ichi-usdc.e-scusd-scusd",
+        "vault": "0xcb076273698360801A24571F20DD3dd35Be94B80",
+        "lpToken": "0x776C31466F19D4e2c71bCE16c0549a8Bc0E37e17",
+        "token": "0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE"
+    },
+    {
+        "name": "swapx-ichi-ws-sts",
+        "vault": "0x4d95b4B19CddEA709798c78539e2F1Dd1Fcc366B",
+        "lpToken": "0xfD10ac67449C16F368a4BB49f544E0A865A77614",
+        "token": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38"
+    },
+    {
+        "name": "swapx-ichi-ws-usdc.e",
+        "vault": "0x816d2AEAff13dd1eF3a4A2e16eE6cA4B9e50DDD8",
+        "lpToken": "0x5F62d612c69fF7BE3FBd9a0cD530D57bCbC7b642",
+        "token": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38"
+    },
+    {
+        "name": "swapx-ichi-ws-os-ws",
+        "vault": "0xd9A027c0354D2dfDFAB7a0Be5758E9104b938415",
+        "lpToken": "0x36dA3b8156C421118d1cc27956454C49eeC5fC1B",
+        "token": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38"
+    },
+    {
+        "name": "swapx-ichi-ws-weth-weth",
+        "vault": "0x760943c0501c3E5fb64E01834c68b4CCB60c1679",
+        "lpToken": "0x04A5AE9fc90A66244E1448A01adA904A68CcCc68",
+        "token": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b"
+    },
+    {
+        "name": "swapx-ichi-sceth-weth-sceth",
+        "vault": "0xd2a1b0A94a90A542C56E1310F005ac55f3b53bbb",
+        "lpToken": "0x6E8A8037533aA74FfFEb92390E443294d034d769",
+        "token": "0x3bcE5CB273F0F148010BbEa2470e7b5df84C7812"
+    },
+    {
+        "name": "swapx-ichi-ws-swpx",
+        "vault": "0x53F06bbaC1eA0353de65A16Eb8E4652a702F1132",
+        "lpToken": "0xfDEc32751Faade573B285C8CC606677beE656A4C",
+        "token": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38"
+    },
+    {
+        "name": "swapx-ichi-usdc.e-swpx",
+        "vault": "0xA54DB42eBF530afc756D5522Ee0340193864Dd4f",
+        "lpToken": "0x5De651be21beeDe8ABE808D1425b278ac4a3604B",
+        "token": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894"
+    },
+    {
+        "name": "swapx-ichi-ws-usdc.e-usdc.e",
+        "vault": "0x6f8F189250203C6387656B2cAbb00C23b7b7e680",
+        "lpToken": "0xc263e421Df94bdf57B27120A9B7B8534A6901D95",
+        "token": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894"
+    },
+    {
+        "name": "swapx-ichi-sceth-weth-weth",
+        "vault": "0x95c0C8d19d75faF1A287Cb35028ef92cf5e1Ca56",
+        "lpToken": "0x0f385EEa80cB6909A1dbA5CDc763e97F8589f47D",
+        "token": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b"
+    },
+    {
+        "name": "swapx-ichi-swpx-os-os",
+        "vault": "0xD5ac2c62c893f67044d03fa2aDBdfb93F05E7d1e",
+        "lpToken": "0x3E11010699adc07C950d854A8d442F956208F895",
+        "token": "0xb1e25689D55734FD3ffFc939c4C3Eb52DFf8A794"
+    },
+    {
+        "name": "swapx-ichi-weth-swpx-weth",
+        "vault": "0x230054ddF723224c42AD90c9Cfe6Ba61af2d9602",
+        "lpToken": "0x31d3419c0A2780836C603C086266f803f655e7F0",
+        "token": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b"
+    }
+]

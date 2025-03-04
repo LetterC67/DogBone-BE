@@ -1,0 +1,66 @@
+[
+    {
+        "name": "LSTS",
+        "pool": "6c65cc58-c28a-4177-93dc-3aded1618f32",
+        "vault": "0x555733fBa1CA24ec45e7027E00C4B6c5065BaC96",
+        "token": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955"
+    },
+    {
+        "name": "LANON",
+        "pool": "f12cc8b7-acbf-490c-b980-bc8f07607168",
+        "vault": "0x92Dd17b19F74E696502Ee9eD478901F24c5d9a9A",
+        "token": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C"
+    },
+    {
+        "name": "LYEL",
+        "pool": "30894995-1108-4bee-ba8d-aa2f877bb156",
+        "vault": "0x6E074300A7Bf53af6e20f1f07dDDfeedAE5598A8",
+        "token": "0x949185D3BE66775Ea648F4a306740EA9eFF9C567"
+    },
+    {
+        "name": "LSONIC",
+        "pool": "779448ac-80e4-4128-a238-222d3802e3dd",
+        "vault": "0x7Ba0abb5f6bDCbf6409BB2803CdF801215424490",
+        "token": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38"
+    },
+    {
+        "name": "LUSDC",
+        "pool": "ab9422bf-40a4-4770-a8a2-579ae04ba9f7",
+        "vault": "0x995171196618b7FE0F0C6D606D79583DD1c8ff60",
+        "token": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894"
+    },
+    {
+        "name": "LWAGMI",
+        "pool": "e9798e15-6a9b-424d-9b53-cf25ef0f70d3",
+        "vault": "0xecf1b589F47511D23b026eF53D16FEbB89Aa5f3A",
+        "token": "0x0e0Ce4D450c705F8a0B6Dd9d5123e3df2787D16B"
+    },
+    {
+        "name": "LOS",
+        "pool": "d301e5cb-7b90-4f99-95cb-33c3f8403ad4",
+        "vault": "0xde1F938A7EfE5203E66B4D0efA667f116cBC7C45",
+        "token": "0xb1e25689D55734FD3ffFc939c4C3Eb52DFf8A794"
+    },
+    {
+        "name": "LYOKO",
+        "vault": "0x30Fb515Cf3e0C7fF94Aa923788B466F44768cAA4",
+        "token": "0x59524D5667B299c0813Ba3c99a11C038a3908fBC"
+    },
+    {
+        "name": "LSCUSD",
+        "pool": "7e380109-31b8-46fd-bd1b-7e95bfbd5143",
+        "vault": "0x2C7A01DE0c419421EB590F9ECd98cBbca4B9eC2A",
+        "token": "0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE"
+    },
+    {
+        "name": "LBOO",
+        "vault": "0x85262a5121B8aD219C521665787A6F21eCbBf679",
+        "token": "0x7A0C53F7eb34C5BC8B01691723669adA9D6CB384"
+    },
+    {
+        "name": "LGOGLZ",
+        "pool": "8751824e-4519-4ca3-aae1-2237cb66a254",
+        "vault": "0xdE31054Fb0ee7c6C39641db2e677011E276644aC",
+        "token": "0x9fDbC3f8Abc05Fa8f3Ad3C17D2F806c1230c4564"
+    }
+]

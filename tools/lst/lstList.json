@@ -1,0 +1,14 @@
+[
+    {
+        "name": "stS",
+        "vault": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
+        "lpToken": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
+        "token": "0x0000000000000000000000000000000000000000"
+    },
+    {
+        "name": "OS",
+        "vault": "0xe25A2B256ffb3AD73678d5e80DE8d2F6022fAb21",
+        "lpToken": "0xb1e25689D55734FD3ffFc939c4C3Eb52DFf8A794",
+        "token": "0x0000000000000000000000000000000000000000"
+    }
+]
