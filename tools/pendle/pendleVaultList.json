@@ -16,5 +16,23 @@
         "yt": "0x30989fd89e9fa16191f38807d56cdfe98ad206f2",
         "sy": "0x8bb86a99f97f5d19718bd5ca0b0ca00354532ef3",
         "token": "0xe8a41c62bb4d5863c6eadc96792cfe90a1f37c47"
+    },
+    {
+        "name": "stS",
+        "vault": "0x3aef1d372d0a7a7e482f465bc14a42d78f920392",
+        "expiry": "2025-05-29T00:00:00.000Z",
+        "pt": "0x420df605d062f8611efb3f203bf258159b8fffde",
+        "yt": "0xd8f57b34e69270f7ba179e854020ee80f16eebf4",
+        "sy": "0x7076dee976098b444f68c6382e8f062237879a9f",
+        "token": "0xe5da20f15420ad15de0fa650600afc998bbe3955"
+    },
+    {
+        "name": "wOS",
+        "vault": "0x4e82347bc41cfd5d62cef483c7f0a739a8158963",
+        "expiry": "2025-05-29T00:00:00.000Z",
+        "pt": "0x46eb02b9f47634c4fab3110cc7adc1c6311dfac1",
+        "yt": "0x1a1b312378e42de5495d986c7948075a4723e660",
+        "sy": "0xb261266cb30c255cb9c73ebf4a3ead9398d23ab4",
+        "token": "0x9f0df7799f6fdad409300080cff680f5a23df4b1"
     }
 ]
