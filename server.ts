@@ -17,6 +17,7 @@ interface APRData {
   apr: number;
   point_apr: number;
   provider: any;
+  risk: string;
 }
 
 let cachedAPRData: APRData[] = [];
@@ -27,7 +28,8 @@ async function fetchApr(
   address: string,
   name: string,
   provider: any,
-  strategy: any
+  strategy: any,
+  risk: string
 ): Promise<APRData> {
   let apr = 0, point_apr = 0;
 
@@ -47,7 +49,8 @@ async function fetchApr(
     ),
     apr,
     point_apr,
-    provider: Providers.find((p) => p.name === provider.type)
+    provider: Providers.find((p) => p.name === provider.type),
+    risk: risk,
   };
 }
 
@@ -56,7 +59,7 @@ async function fetchAPRData() {
 
   for (const provider of Strategies) {
     for (const strategy of provider.lists) {
-      promises.push(fetchApr(provider.type, strategy.token, strategy.name, provider, strategy));
+      promises.push(fetchApr(provider.type, strategy.token, strategy.name, provider, strategy, provider.risk));
     }
   }
 

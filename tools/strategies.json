@@ -1,6 +1,7 @@
 [
     {
       "type": "Bone1",
+      "risk": "high",
       "lists": [
         {
           "name": "Bone 1 - Silo stS-S (stS deposit) looping 17x leverage",
@@ -12,6 +13,7 @@
     },
     {
       "type": "Bone2",
+      "risk": "high",
       "lists": [
         {
           "name": "Bone 2 - Silo wOS - S (wOS deposit) looping 9x leverage",
