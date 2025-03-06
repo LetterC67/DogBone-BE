@@ -48,5 +48,15 @@
         "name": "pendle",
         "full_name": "Pendle",
         "img": "https://i.ibb.co/cXCVWykv/no-glow.png"
+    },
+    {
+        "name": "aave",
+        "full_name": "Aave",
+        "img": "https://cryptologos.cc/logos/aave-aave-logo.png?v=040"
+    },
+    {
+        "name": "vicuna",
+        "full_name": "Vicuna",
+        "img": "https://i.ibb.co/35DWSpd0/vicuna.jpg"
     }
 ]

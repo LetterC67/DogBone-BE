@@ -11,6 +11,8 @@ import { NATIVE_TOKEN } from './constants';
 import { getBone1APY } from './dogbone/dogbone_silo_st_s_st_looping/getBone1APY';
 import { getBone2APY } from './dogbone/dogbone_silo_wos_s_wos_looping/getBone2APY';
 import { viewPendleAPY } from './pendle/viewPendleAPR';
+import { getAaveAPY } from './aave/getAaveAPY';
+import { getVicunaAPY } from './vicuna/getVicunaAPY';
 
 export const notLeveraged = (strategy: string, amount: string) => {
   return {
@@ -66,6 +68,14 @@ export const strategyFunctions = {
   },
   pendle: {
     viewAPR: viewPendleAPY,
+    leverage: notLeveraged
+  },
+  aave: {
+    viewAPR: getAaveAPY,
+    leverage: notLeveraged
+  },
+  vicuna: {
+    viewAPR: getVicunaAPY,
     leverage: notLeveraged
   }
 };

@@ -6,6 +6,7 @@ import {
 import {  SONIC_POINTS_APR } from './constants';
 
 export async function getVaultAPR(strategyName: string): Promise<number> {
+  console.log(nameToTypeMapping[strategyName] + " " + strategyName);
   const strategy = nameToTypeMapping[strategyName];
   if (!strategy) {
     throw new Error('Strategy not found');

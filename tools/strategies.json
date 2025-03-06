@@ -22,7 +22,74 @@
       ]
     },
     {
+      "type": "aave",
+      "risk": "low",
+      "lists": [
+        {
+          "name": "Aave USDC.e Vault",
+          "vault": "0x29219dd400f2bf60e5a23d13be72b486d4038894",
+          "token": "0x29219dd400f2bf60e5a23d13be72b486d4038894",
+          "points": 10
+      },
+      {
+          "name": "Aave wS Vault",
+          "vault": "0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38",
+          "token": "0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38",
+          "points": 8
+      },
+      {
+          "name": "Aave WETH Vault",
+          "vault": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b",
+          "token": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b",
+          "points": 4
+      }
+      ]
+    },
+    {
+      "type": "vicuna",
+      "risk": "low",
+      "lists": [
+        {
+          "name": "Vicuna USDC.e Vault",
+          "vault": "0x29219dd400f2bf60e5a23d13be72b486d4038894",
+          "token": "0x29219dd400f2bf60e5a23d13be72b486d4038894",
+          "points": 10
+        },
+        {
+          "name": "Vicuna wS Vault",
+          "vault": "0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38",
+          "token": "0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38",
+          "points": 8
+        },
+        {
+          "name": "Vicuna WETH Vault",
+          "vault": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b",
+          "token": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b",
+          "points": 4
+        },
+        {
+          "name": "Vicuna scUSD Vault",
+          "vault": "0xd3dce716f3ef535c5ff8d041c1a41c3bd89b97ae",
+          "token": "0xd3dce716f3ef535c5ff8d041c1a41c3bd89b97ae",
+          "points": 12
+        },
+        {
+          "name": "Vicuna wOS Vault",
+          "vault": "0x9F0dF7799f6FDAd409300080cfF680f5A23df4b1",
+          "token": "0x9F0dF7799f6FDAd409300080cfF680f5A23df4b1",
+          "points": 8
+        },
+        {
+          "name": "Vicuna stS Vault",
+          "vault": "0xe5da20f15420ad15de0fa650600afc998bbe3955",
+          "token": "0xe5da20f15420ad15de0fa650600afc998bbe3955",
+          "points": 8
+        }
+      ]
+    },
+    {
       "type": "pendle",
+      "risk": "low",
       "lists": [
         {
           "name": "Pendle PT-wstkscUSD",
@@ -40,6 +107,7 @@
     },
     {
       "type": "beefy",
+      "risk": "medium",
       "lists": [
         {
           "name": "Beefy SWAPX (Ichi) WS-stS (stS deposit)",
@@ -135,6 +203,7 @@
     },
     {
       "type": "ichi",
+      "risk": "medium",
       "lists": [
         {
           "name": "SWAPX Ichi USDC.e-wS (USDC.e deposit)",
@@ -315,6 +384,7 @@
     },
     {
       "type": "LST",
+      "risk": "low",
       "lists": [
         {
           "name": "Beets Staked Sonic",
@@ -332,6 +402,7 @@
     },
     {
       "type": "MachFi",
+      "risk": "low",
       "lists": [
         {
           "name": "MachFi Sonic Vault",
@@ -367,6 +438,7 @@
     },
     {
       "type": "rings",
+      "risk": "low",
       "lists": [
         {
           "name": "Rings stkscUSD Vault",
@@ -384,6 +456,7 @@
     },
     {
       "type": "silo",
+      "risk": "low",
       "lists": [
         {
           "name": "Silo USDC.e (Market id 8)",
@@ -479,6 +552,7 @@
     },
     {
       "type": "yel",
+      "risk": "medium",
       "lists": [
         {
           "name": "Yel L-stS Potion",

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Vicuna USDC.e",
+        "vault": "0x29219dd400f2bf60e5a23d13be72b486d4038894",
+        "identifier": "0xF224CB039F2B5909197c019b1972E62d7fdCdA0f",
+        "token": "0x29219dd400f2bf60e5a23d13be72b486d4038894"
+    },
+    {
+        "name": "Vicuna wS",
+        "vault": "0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38",
+        "identifier": "0x9E581fC9181f99c3c4DAB344B91C55DaEb9413fe",
+        "token": "0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38"
+    },
+    {
+        "name": "Vicuna WETH",
+        "vault": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b",
+        "identifier": "0xA1241Ce1fBB74Ff37D5c73dcB84326766C3852C0",
+        "token": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b"
+    },
+    {
+        "name": "Vicuna scUSD",
+        "vault": "0xd3dce716f3ef535c5ff8d041c1a41c3bd89b97ae",
+        "identifier": "0xF9f65F8c6566d71C5966a0a1852cEd1Eb978bafb",
+        "token": "0xd3dce716f3ef535c5ff8d041c1a41c3bd89b97ae"
+    },
+    {
+        "name": "Vicuna wOS",
+        "vault": "0x9F0dF7799f6FDAd409300080cfF680f5A23df4b1",
+        "identifier": "0x9BF96Dee5b4161c5cA3DDDf2D19cc677B6832644",
+        "token": "0x9F0dF7799f6FDAd409300080cfF680f5A23df4b1"
+    },
+    {
+        "name": "Vicuna stS",
+        "vault": "0xe5da20f15420ad15de0fa650600afc998bbe3955",
+        "identifier": "0x4C8D17317884B53bEfE5abeF884818b2fbe0A2dD",
+        "token": "0xe5da20f15420ad15de0fa650600afc998bbe3955"
+    }
+]
