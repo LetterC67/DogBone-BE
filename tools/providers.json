@@ -15,9 +15,19 @@
         "img": "https://pbs.twimg.com/profile_images/1866125818591952896/8PFd1JAZ_400x400.jpg"
     },
     {
-        "name": "LST",
+        "name": "beets",
         "full_name": "Beethoven X",
         "img": "https://s2.coinmarketcap.com/static/img/coins/64x64/13244.png"
+    },
+    {
+        "name": "origin",
+        "full_name": "Origin Protocol",
+        "img": "https://cryptologos.cc/logos/origin-protocol-ogn-logo.png?v=040"
+    },
+    {
+        "name": "ans",
+        "full_name": "Angles",
+        "img": "https://i.ibb.co/gZnDfGBm/Angleslogo.png"
     },
     {
         "name": "rings",

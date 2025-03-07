@@ -38,9 +38,17 @@ export const strategyFunctions = {
     viewAPR: getIchiAPR,
     leverage: notLeveraged
   },
-  LST: {
+  beets: {
     viewAPR: getLSTAPY,
-    leverage: notLeveraged
+    leverage: notLeveraged,
+  },
+  origin: {
+    viewAPR: getLSTAPY,
+    leverage: notLeveraged,
+  },
+  ans: {
+    viewAPR: getLSTAPY,
+    leverage: notLeveraged,
   },
   MachFi: {
     viewAPR: getMachFiAPR,

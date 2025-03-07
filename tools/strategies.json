@@ -120,7 +120,7 @@
       ]
     },
     {
-      "type": "LST",
+      "type": "beets",
       "risk": "low",
       "lists": [
         {
@@ -128,10 +128,28 @@
           "vault": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
           "token": "0x0000000000000000000000000000000000000000",
           "points": 8
-        },
+        }
+      ]
+    },
+    {
+      "type": "origin",
+      "risk": "low",
+      "lists": [
         {
           "name": "Origin Sonic",
           "vault": "0xe25A2B256ffb3AD73678d5e80DE8d2F6022fAb21",
+          "token": "0x0000000000000000000000000000000000000000",
+          "points": 8
+        }
+      ]
+    },
+    {
+      "type": "ans",
+      "risk": "low",
+      "lists": [
+        {
+          "name": "Angles Sonic",
+          "vault": "0xe5203Be1643465b3c0De28fd2154843497Ef4269",
           "token": "0x0000000000000000000000000000000000000000",
           "points": 8
         }

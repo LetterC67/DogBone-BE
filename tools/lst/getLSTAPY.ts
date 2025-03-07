@@ -18,8 +18,10 @@ export async function getLSTAPY(vaultAddress: Address) {
 
   if (lstConfig.name === 'stS') {
     return await getBeetsSTSAPY();
-  } else {
+  } else if (lstConfig.name === 'OS') {
     return await getOriginOSAPY();
+  } else if (lstConfig.name === 'ANS') {
+    return await getAngelsANSAPY();
   }
 }
 
@@ -51,6 +53,18 @@ async function getOriginOSAPY() {
   const URL = 'https://api.originprotocol.com/api/v2/os/apr/trailing/14';
   const response = await fetch(URL);
 
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+
+  const data = await response.json();
+  return Number(data.apy);
+}
+
+async function getAngelsANSAPY() {
+  const URL = 'https://be.angles.fi/api/v2/angles/apr/trailing/7';
+
+  const response = await fetch(URL);
   if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);
   }
