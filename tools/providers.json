@@ -47,12 +47,12 @@
     {
         "name": "Bone1",
         "full_name": "DogBone 1",
-        "img": "https://iili.io/3FsujwX.md.png"
+        "img": "/dogbone-bg.png"
     },
     {
         "name": "Bone2",
         "full_name": "DogBone 2",
-        "img": "https://iili.io/3FsujwX.md.png" 
+        "img": "/dogbone-bg.png" 
     },
     {
         "name": "pendle",
