@@ -25,7 +25,11 @@ export async function getBone1APY() {
 
       console.log("deposit APR: ", formatUnits(depositAPR, 16));
 
-    const stSAPR = parseUnits((await getLSTAPY(TOKEN)).toString(), 16);
+    const lstAPY = await getLSTAPY(TOKEN);
+    if (lstAPY === undefined) {
+        throw new Error("getLSTAPY returned undefined");
+    }
+    const stSAPR = parseUnits(lstAPY.toString(), 16);
 
     const borrowAPR = (await publicClient.readContract({
         address: SILO_LENS,

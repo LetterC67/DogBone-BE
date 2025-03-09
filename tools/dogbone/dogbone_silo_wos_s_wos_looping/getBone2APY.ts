@@ -25,7 +25,11 @@ export async function getBone2APY() {
 
       console.log("deposit APR: ", formatUnits(depositAPR, 16));
 
-    const wOSAPR = parseUnits((await getLSTAPY(OS_VAULT)).toString(), 16);
+    const lstAPY = await getLSTAPY(OS_VAULT);
+    if (lstAPY === undefined) {
+        throw new Error("getLSTAPY returned undefined");
+    }
+    const wOSAPR = parseUnits(lstAPY.toString(), 16);
     console.log("wOS APR: ", formatUnits(wOSAPR, 16));
 
     const borrowAPR = (await publicClient.readContract({
