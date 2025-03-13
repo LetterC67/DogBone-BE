@@ -118,5 +118,35 @@
         "vault": "0x87178fe8698C7eDa8aA207083C3d66aEa569aB98",
         "token": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
         "borrowable": true
+    },
+    {
+        "marketId": 28,
+        "vault": "0xF03c5b0CCbC4840AA2A0c896DC56ca79E75D1879",
+        "token": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
+        "borrowable": true
+    },
+    {
+        "marketId": 28,
+        "vault": "0x6c49B18333A1135e9A376560c07E6D1Fd0350EaF",
+        "token": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+        "borrowable": true
+    },
+    {
+        "marketId": 33,
+        "vault": "0x42CE2234fd5a26bF161477a996961c4d01F466a3",
+        "token": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+        "borrowable": true
+    },
+    {
+        "marketId": 31,
+        "vault": "0xf2f6609C0D9A8E6bd9be51359E67b58c9D33e771",
+        "token": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+        "borrowable": true
+    },
+    {
+        "marketId": 31,
+        "vault": "0x0588651eE0B84b3CA8035a69d60fF18c0263DF71",
+        "token": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+        "borrowable": true
     }
 ]
