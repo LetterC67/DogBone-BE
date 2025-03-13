@@ -19931,6 +19931,14 @@
         "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
         "logoURI": "https://sonicscan.org/token/images/wrappedbtc_ofc_32.svg",
         "chainId": 146
+      },
+      {
+        "symbol": "scBTC",
+        "name": "Sonic BTC",
+        "decimals": 8,
+        "address": "0xBb30e76d9Bb2CC9631F7fC5Eb8e87B5Aff32bFbd",
+        "logoURI": "https://i.ibb.co/Vcfsg4jz/scBTC.png",
+        "chainId": 146
       }
     ]
   }
