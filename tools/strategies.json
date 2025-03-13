@@ -289,13 +289,25 @@
           "name": "Silo LBTC (Market id 31)",
           "vault": "0xf2f6609C0D9A8E6bd9be51359E67b58c9D33e771",
           "token": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
-          "points": 0
+          "points": 4
         },
         {
           "name": "Silo WBTC (Market id 31)",
           "vault": "0x0588651eE0B84b3CA8035a69d60fF18c0263DF71",
           "token": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
           "points": 0
+        },
+        {
+          "name": "Silo LBTC (Market id 32)",
+          "vault": "0x0DFA6b53c05b07e29B49a878Fc96153cc03c3E72",
+          "token": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+          "points": 4
+        },
+        {
+          "name": "Silo scBTC (Market id 32)",
+          "vault": "0x0A94e18bdbCcD048198806d7FF28A1B1D2590724",
+          "token": "0xBb30e76d9Bb2CC9631F7fC5Eb8e87B5Aff32bFbd",
+          "points": 8
         }
       ]
     },
