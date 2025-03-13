@@ -295,5 +295,24 @@
     "logoURI": "https://tokens.debridge.finance/Logo/100000014/0x3bce5cb273f0f148010bbea2470e7b5df84c7812/small/token-logo.png",
     "tags": [],
     "eip2612": false
+  },
+  {
+    "symbol": "LBTC",
+    "name": "Lombard Staked Bitcoin",
+    "decimals": 8,
+    "address": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+    "logoURI": "https://sonicscan.org/token/images/lbtc_64.png",
+    "tags": [],
+    "eip2612": false
+  },
+  {
+    "symbol": "WBTC",
+    "name": "Wrapped Bitcoin",
+    "decimals": 8,
+    "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+    "logoURI": "https://sonicscan.org/token/images/wrappedbtc_ofc_32.svg",
+    "tags": [],
+    "eip2612": false
   }
+  
 ]
