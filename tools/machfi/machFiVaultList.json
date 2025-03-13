@@ -23,5 +23,15 @@
         "name": "Machfi stS Vault",
         "vault": "0xbAA06b4D6f45ac93B6c53962Ea861e6e3052DC74",
         "token": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955"
+    },
+    {
+        "name": "Machfi scBTC Vault",
+        "vault": "0x7752f826E0CC11eb049004b050EF1d4Cbe9F3bd1",
+        "token": "0xBb30e76d9Bb2CC9631F7fC5Eb8e87B5Aff32bFbd"
+    },
+    {
+        "name": "Machfi scETH Vault",
+        "vault": "0x08A1821Fbb570359d458fa1e6740a1e677Aa45B8",
+        "token": "0x3bcE5CB273F0F148010BbEa2470e7b5df84C7812"
     }
 ]
