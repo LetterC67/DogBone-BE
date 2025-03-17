@@ -1,4 +1,3 @@
-import { ConnectedWallet } from '@privy-io/react-auth';
 import { Address, createPublicClient, custom, parseUnits } from 'viem';
 import VaultList from './pendleVaultList.json';
 import { sonic } from 'viem/chains';
@@ -21,18 +20,8 @@ interface VaultConfig {
   token: Address;
 }
 
-interface DepositArgs {
-  walletClient: ConnectedWallet;
-  vaultAddress: Address;
-  amount: string;
-}
-
-export async function depositPendle({
-  walletClient,
-  vaultAddress,
-  amount,
-}: DepositArgs) {
-  // Check if vault address is in vault list
+export async function getPendleRoute(vaultAddress: Address, fromToken: Address, parsedAmount: bigint, receiver: Address) {
+  console.log("parsedAmountdsd: ", parsedAmount);
   const vaultConfig = vaultList.find(
     (vault: VaultConfig) => vault.vault === vaultAddress
   );
@@ -40,77 +29,40 @@ export async function depositPendle({
     throw new Error('Vault either not found or not supported');
   }
 
-  if (
-    walletClient.chainId.slice(7, walletClient.chainId.length) !==
-    sonic.id.toString()
-  ) {
-    await walletClient.switchChain(sonic.id);
-  }
-
-  const userAddr = walletClient.address as Address;
-  const provider = await walletClient.getEthereumProvider();
-  const publicClient = createPublicClient({
-    transport: custom(provider),
-  });
-
-  const underlyingToken = vaultConfig.token;
-
-  const parsedAmount = parseUnits(
-    amount,
-    await getERC20Decimals({ publicClient, tokenAddress: underlyingToken })
-  );
-  const userBalance = await getERC20Balance({
-    publicClient,
-    account: userAddr,
-    tokenAddress: underlyingToken,
-  });
-
-  if (userBalance < parsedAmount) {
-    throw new Error('Insufficient balance');
-  }
   const PENDLE_API_URL = 'https://api-v2.pendle.finance/core';
 
   const response = await fetch(
-    `${PENDLE_API_URL}/v1/sdk/${sonic.id}/markets/${vaultConfig.name}/swap?receiver=${userAddr}&slippage=0.01&enableAggregator=false&tokenIn=${underlyingToken}&tokenOut=${vaultConfig.pt}&amountIn=${parsedAmount}`
+    `${PENDLE_API_URL}/v1/sdk/${sonic.id}/markets/${vaultConfig.name}/swap?receiver=${receiver}&slippage=0.01&enableAggregator=true&tokenIn=${fromToken}&tokenOut=${vaultConfig.pt}&amountIn=${parsedAmount}`
+  );
+
+  if (!response.ok) {
+    throw new Error('Failed to finding route swap to Pendle PT' + await response.text());
+  }
+
+  const data = await response.json();
+  const { tx } = data;
+
+  return tx;
+}
+export async function getPricePendle(vaultAddress: Address, parsedAmount: bigint) {
+  const vaultConfig = vaultList.find(
+    (vault: VaultConfig) => vault.vault === vaultAddress
+  );
+  if (!vaultConfig) {
+    throw new Error('Vault either not found or not supported');
+  }
+
+  const underlyingToken = vaultConfig.token;
+  const PENDLE_API_URL = 'https://api-v2.pendle.finance/core';
+
+  const response = await fetch(
+    `${PENDLE_API_URL}/v1/sdk/${sonic.id}/markets/${vaultConfig.name}/swap?receiver=${"0x7aF234d569aB6360693806D7e7f439Ec2114F93c"}&slippage=0.01&enableAggregator=true&tokenIn=${vaultConfig.pt}&tokenOut=${"0x29219dd400f2bf60e5a23d13be72b486d4038894"}&amountIn=${parsedAmount}`
   );
   if (!response.ok) {
     throw new Error('Failed to swap');
   }
 
   const data = await response.json();
-  const { tx } = data;
 
-  if (
-    await checkNeedApproval({
-      publicClient,
-      account: userAddr,
-      tokenAddress: underlyingToken,
-      spender: tx.to,
-      amount: parsedAmount,
-    })
-  ) {
-    await approveERC20({
-      provider,
-      tokenAddress: underlyingToken,
-      spender: tx.to,
-      amount: parsedAmount,
-    });
-  }
-
-  const transactionRequest = {
-    to: tx.to,
-    data: tx.data,
-    value: BigInt(0),
-  };
-
-  try {
-    const transactionHash = await provider.request({
-      method: 'eth_sendTransaction',
-      params: [transactionRequest],
-    });
-
-    return transactionHash;
-  } catch (error) {
-    throw new Error('Failed to deposit token into Silo: ' + error);
-  }
+  return BigInt(data.data.amountOut);
 }
