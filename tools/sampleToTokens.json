@@ -322,5 +322,23 @@
     "logoURI": "https://i.ibb.co/Vcfsg4jz/scBTC.png",
     "tags": [],
     "eip2612": false
+  },
+  {
+    "symbol": "PT-stS-29MAY2025",
+    "name": "PT Beets Staked Sonic 29MAY2025",
+    "decimals": 18,
+    "address": "0x420df605D062F8611EFb3F203BF258159b8FfFdE",
+    "logoURI": "https://v2.silo.finance/_next/static/media/PT_stS.5a20ceaa.svg",
+    "tags": [],
+    "eip2612": false
+  },
+  {
+    "symbol": "PT-wstkscUSD-29MAY2025",
+    "name": "PT Wrapped stkscUSD 29MAY2025",
+    "decimals": 6,
+    "address": "0xBe27993204Ec64238F71A527B4c4D5F4949034C3",
+    "logoURI": "https://v2.silo.finance/_next/static/media/PT_wstkscUSD.0068635d.svg",
+    "tags": [],
+    "eip2612": false
   }
 ]

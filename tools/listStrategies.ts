@@ -13,6 +13,8 @@ import { getBone2APY } from './dogbone/dogbone_silo_wos_s_wos_looping/getBone2AP
 import { viewPendleAPY } from './pendle/viewPendleAPR';
 import { getAaveAPY } from './aave/getAaveAPY';
 import { getVicunaAPY } from './vicuna/getVicunaAPY';
+import { getBone3APY } from './dogbone/dogbone_silo_ptwstkscUSD_fraxUSD_looping/getBone3APY';
+import { getBone4APY } from './dogbone/dogbone4/getBone4APY';
 
 export const notLeveraged = (strategy: string, amount: string) => {
   return {
@@ -72,6 +74,14 @@ export const strategyFunctions = {
   },
   Bone2: {
     viewAPR: getBone2APY,
+    leverage: notLeveraged
+  },
+  Bone3: {
+    viewAPR: getBone3APY,
+    leverage: notLeveraged
+  },
+  Bone4: {
+    viewAPR: getBone4APY,
     leverage: notLeveraged
   },
   pendle: {

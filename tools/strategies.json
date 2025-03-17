@@ -8,6 +8,7 @@
           "vault": "0x396922EF30Cf012973343f7174db850c7D265278",
           "token": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
           "defaultLeverage": 10,
+          "maxLeverage": 17,
           "points": 136
         }
       ]
@@ -21,7 +22,36 @@
           "vault": "0x1d7E3726aFEc5088e11438258193A199F9D5Ba93",
           "token": "0x9F0dF7799f6FDAd409300080cfF680f5A23df4b1",
           "defaultLeverage": 5,
+          "maxLeverage": 9,
           "points": 72
+        }
+      ]
+    },
+    {
+      "type": "Bone3",
+      "risk": "high",
+      "lists": [
+        {
+          "name": "Bone 3 - Silo PT-wstkscUSD (29 May) - frxUSD (PT-wstkscUSD deposit) looping 6x leverage",
+          "vault": "0x854475b78880767e246163031b5bE44f14426c26",
+          "token": "0xBe27993204Ec64238F71A527B4c4D5F4949034C3",
+          "defaultLeverage": 4,
+          "maxLeverage": 6,
+          "points": 72
+        }
+      ]
+    },
+    {
+      "type": "Bone4",
+      "risk": "high",
+      "lists": [
+        {
+          "name": "Bone 4 - Silo PT-stS (29 May) - S (PT-stS deposit) looping 10x leverage",
+          "vault": "0x058766008d237faF3B05eeEebABc73C64d677bAE",
+          "token": "0x420df605D062F8611EFb3F203BF258159b8FfFdE",
+          "defaultLeverage": 9,
+          "maxLeverage": 10,
+          "points": 80
         }
       ]
     },
