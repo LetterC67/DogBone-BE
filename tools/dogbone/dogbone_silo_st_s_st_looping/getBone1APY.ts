@@ -40,3 +40,36 @@ export async function getBone1APY() {
 
     return Number(formatUnits((depositAPR + stSAPR) * LEVERAGE - borrowAPR * (LEVERAGE - BigInt(1)), 16));
 }
+
+export async function getBone1_DepositBorrowAPR() {
+  const publicClient = createPublicClient({
+    chain: sonic,
+    transport: http(),
+  });
+const depositAPR = (await publicClient.readContract({
+    address: SILO_LENS,
+    abi: siloLensAbi,
+    functionName: 'getDepositAPR',
+    args: [SILO_VAULT],
+  })) as bigint;
+
+  console.log("deposit APR: ", formatUnits(depositAPR, 16));
+
+const lstAPY = await getLSTAPY(TOKEN);
+if (lstAPY === undefined) {
+    throw new Error("getLSTAPY returned undefined");
+}
+const stSAPR = parseUnits(lstAPY.toString(), 16);
+
+const borrowAPR = (await publicClient.readContract({
+    address: SILO_LENS,
+    abi: siloLensAbi,
+    functionName: 'getBorrowAPR',
+    args: [BORROW_VAULT],
+})) as bigint;
+
+return {
+  depositAPR: depositAPR + stSAPR,
+  borrowAPR: borrowAPR
+}
+}
