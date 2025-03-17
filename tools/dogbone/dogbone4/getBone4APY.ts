@@ -32,14 +32,23 @@ export async function getBone4APY() {
     return ptAPY * LEVERAGE - Number(formatUnits(borrowAPR, 16)) * (LEVERAGE - 1);
 }
 
-export async function getBone3LeverageAPY({
-  depositAPR,
-  borrowAPR,
-  leverage
-}: {
-  depositAPR: bigint;
-  borrowAPR: bigint;
-  leverage: number;
-}) {
-  return Number(formatUnits(depositAPR, 16)) * leverage - Number(formatUnits(borrowAPR, 16)) * (leverage - 1);
+export async function getBone4_DepositBorrowAPR() { 
+  const publicClient = createPublicClient({
+    chain: sonic,
+    transport: http(),
+  });
+
+const ptAPY = await viewPendleAPY(PT_VAULT);
+
+const borrowAPR = (await publicClient.readContract({
+    address: SILO_LENS,
+    abi: siloLensAbi,
+    functionName: 'getBorrowAPR',
+    args: [BORROW_VAULT],
+})) as bigint;
+
+return {
+  depositAPR: BigInt(parseUnits(ptAPY.toString(), 16)),
+  borrowAPR: borrowAPR,
+}
 }
