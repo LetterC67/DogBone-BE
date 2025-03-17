@@ -8,6 +8,7 @@
           "vault": "0x396922EF30Cf012973343f7174db850c7D265278",
           "token": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
           "defaultLeverage": 10,
+          "maxLeverage": 17,
           "points": 136
         }
       ]
@@ -21,6 +22,7 @@
           "vault": "0x1d7E3726aFEc5088e11438258193A199F9D5Ba93",
           "token": "0x9F0dF7799f6FDAd409300080cfF680f5A23df4b1",
           "defaultLeverage": 5,
+          "maxLeverage": 9,
           "points": 72
         }
       ]

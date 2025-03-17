@@ -21,6 +21,7 @@ interface APRData {
   provider: any;
   risk: string;
   defaultLeverage: number;
+  maxLeverage: number;
   borrowAPR: string;
   depositAPR: string;
 }
@@ -35,7 +36,8 @@ async function fetchApr(
   provider: any,
   strategy: any,
   risk: string,
-  defaultLeverage: number = 0
+  defaultLeverage: number = 0,
+  maxLeverage: number = 0
 ): Promise<APRData> {
   let apr = 0, point_apr = 0, depositBorrowAPR = null;
 
@@ -71,7 +73,8 @@ async function fetchApr(
     defaultLeverage: defaultLeverage,
     risk: risk,
     borrowAPR: depositBorrowAPR != null ? depositBorrowAPR.borrowAPR.toString() : "0",
-    depositAPR: depositBorrowAPR != null ? depositBorrowAPR.depositAPR.toString() : "0"
+    depositAPR: depositBorrowAPR != null ? depositBorrowAPR.depositAPR.toString() : "0",
+    maxLeverage: maxLeverage
   };
 }
 
@@ -80,7 +83,7 @@ async function fetchAPRData() {
 
   for (const provider of Strategies) {
     for (const strategy of provider.lists) {
-      promises.push(fetchApr(provider.type, strategy.token, strategy.name, provider, strategy, provider.risk, 'defaultLeverage' in strategy ? strategy.defaultLeverage : 0));
+      promises.push(fetchApr(provider.type, strategy.token, strategy.name, provider, strategy, provider.risk, 'defaultLeverage' in strategy ? strategy.defaultLeverage : 0, 'maxLeverage' in strategy ? strategy.maxLeverage : 0));
     }
   }
 
