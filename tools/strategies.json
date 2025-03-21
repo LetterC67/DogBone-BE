@@ -37,7 +37,7 @@
           "token": "0xBe27993204Ec64238F71A527B4c4D5F4949034C3",
           "defaultLeverage": 4,
           "maxLeverage": 6,
-          "points": 72
+          "points": 0
         }
       ]
     },
@@ -51,7 +51,7 @@
           "token": "0x420df605D062F8611EFb3F203BF258159b8FfFdE",
           "defaultLeverage": 9,
           "maxLeverage": 10,
-          "points": 80
+          "points": 0
         }
       ]
     },
