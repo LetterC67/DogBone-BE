@@ -19881,7 +19881,7 @@
         "name": "SolvBTC Babylon",
         "decimals": 18,
         "address": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
-        "logoURI": "https://sonicscan.org/assets/sonic/images/svg/empty-token.svg?v=25.2.2.0",
+        "logoURI": "https://storage.googleapis.com/prod-pendle-bucket-a/images/uploads/a715de4a-82be-44f0-9fa4-78eb848d507a.svg",
         "chainId": 146
       },
       {
@@ -19889,7 +19889,7 @@
         "name": "Solv BTC",
         "decimals": 18,
         "address": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
-        "logoURI": "https://sonicscan.org/assets/sonic/images/svg/empty-token.svg?v=25.2.2.0",
+        "logoURI": "https://v2.silo.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FSolvBTC.7d69e085.png&w=3840&q=75",
         "chainId": 146
       },
       {
@@ -19978,6 +19978,38 @@
         "decimals": 18,
         "address": "0x46eb02b9F47634c4fab3110CC7ADc1C6311DfAC1",
         "logoURI": "https://v2.silo.finance/_next/static/media/PT_wOS.da609328.svg",
+        "chainId": 146
+      },
+      {
+        "symbol": "anS",
+        "name": "Angles Staked Sonic",
+        "decimals": 18,
+        "address": "0x0C4E186Eae8aCAA7F7de1315D5AD174BE39Ec987",
+        "logoURI": "https://sonicscan.org/token/images/ans_64.svg",
+        "chainId": 146
+      },
+      {
+        "symbol": "wanS",
+        "name": "Wrapped anS",
+        "decimals": 18,
+        "address": "0xfA85Fe5A8F5560e9039C04f2b0a90dE1415aBD70",
+        "logoURI": "https://sonicscan.org/token/images/wans_64.svg",
+        "chainId": 146
+      },
+      {
+        "symbol": "PT-SolvBTC.BBN-26JUN2025",
+        "name": "PT SolvBTC Babylon 26JUN2025",
+        "decimals": 18,
+        "address": "0x15C2B34593E47253eD3fd1115887c5C2D73D5722",
+        "logoURI": "https://storage.googleapis.com/prod-pendle-bucket-a/images/uploads/f5de2555-ae5b-4f97-b7cf-8a4f05fe6122.svg",
+        "chainId": 146
+      },
+      {
+        "symbol": "PT-wanS-28AUG2025",
+        "name": "PT Wrapped anS 28AUG2025",
+        "decimals": 18,
+        "address": "0x789cA09b0B4bcc83062d817C43206f96bd464015",
+        "logoURI": "https://storage.googleapis.com/prod-pendle-bucket-a/images/uploads/420cb100-6e3e-40f7-a44b-ca42a7785446.svg",
         "chainId": 146
       }
     ]

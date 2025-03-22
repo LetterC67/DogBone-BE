@@ -182,6 +182,18 @@
           "vault": "0x3f5ea53d1160177445b1898afbb16da111182418",
           "token": "0x578ee1ca3a8e1b54554da1bf7c583506c4cd11c6",
           "points": 0
+        },
+        {
+          "name": "Pendle PT-wanS",
+          "vault": "0x9700c4c218237550ead3a78022d43215a717e5e7",
+          "token": "0xfa85fe5a8f5560e9039c04f2b0a90de1415abd70",
+          "points": 0
+        },
+        {
+          "name": "Pendle PT-SolvBTC.BBN",
+          "vault": "0x4a54c1eb9125a5e3de8cc44f618db45055952674",
+          "token": "0xcc0966d8418d412c599a6421b760a847eb169a8c",
+          "points": 0
         }
       ]
     },

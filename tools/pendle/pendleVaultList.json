@@ -43,5 +43,23 @@
         "yt": "0x18d2d54f42ba720851bae861b98a0f4b079e6027",
         "sy": "0xc4a9d8b486f388cc0e4168d2904277e8c8372fa3",
         "token": "0x578ee1ca3a8e1b54554da1bf7c583506c4cd11c6"
+    },
+    {
+        "name": "SolvBTC.BBN",
+        "vault": "0x4a54c1eb9125a5e3de8cc44f618db45055952674",
+        "expiry": "2025-06-26T00:00:00.000Z",
+        "pt": "0x15c2b34593e47253ed3fd1115887c5c2d73d5722",
+        "yt": "0x253bf4d07b1df144301313752d4d5135b23b18bb",
+        "sy": "0x40ae6da2d92aa3dcb7f8d7a7209fd12bdfcb7c85",
+        "token": "0xcc0966d8418d412c599a6421b760a847eb169a8c"
+    },
+    {
+        "name": "wanS",
+        "vault": "0x9700c4c218237550ead3a78022d43215a717e5e7",
+        "expiry": "2025-08-28T00:00:00.000Z",
+        "pt": "0x789ca09b0b4bcc83062d817c43206f96bd464015",
+        "yt": "0x081424ec3f4bfe0ad829297d6cb73997656f56ac",
+        "sy": "0x27b1dacd74688af24a64bd3c9c1b143118740784",
+        "token": "0xfa85fe5a8f5560e9039c04f2b0a90de1415abd70"
     }
 ]
