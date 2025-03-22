@@ -8,6 +8,7 @@ import { getBone2_DepositBorrowAPR } from './tools/dogbone/dogbone_silo_wos_s_wo
 import { getBone3_DepositBorrowAPR } from './tools/dogbone/dogbone_silo_ptwstkscUSD_fraxUSD_looping/getBone3APY';
 import { getBone4_DepositBorrowAPR } from './tools/dogbone/dogbone4/getBone4APY';
 import { getBone5_DepositBorrowAPR } from './tools/dogbone/dogbone5/getBone5APY';
+import { getBone6_DepositBorrowAPR } from './tools/dogbone/dogbone6/getBone6APY';
 
 const app = express();
 const cors = require('cors');
@@ -63,6 +64,8 @@ async function fetchApr(
     } else if (provider.type === 'Bone5') {
       console.log("BONE 5 =====================================");
       depositBorrowAPR = await getBone5_DepositBorrowAPR();
+    } else if (provider.type === 'Bone6') {
+      depositBorrowAPR = await getBone6_DepositBorrowAPR();
     }
     if (depositBorrowAPR != null)
     console.log(`Deposit APR: ${depositBorrowAPR.depositAPR}, Borrow APR: ${depositBorrowAPR.borrowAPR}`);
