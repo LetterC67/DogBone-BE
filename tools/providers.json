@@ -65,6 +65,11 @@
         "img": "/dogbone-bg.png" 
     },
     {
+        "name": "Bone5",
+        "full_name": "DogBone 5",
+        "img": "/dogbone-bg.png"
+    },
+    {
         "name": "pendle",
         "full_name": "Pendle",
         "img": "https://i.ibb.co/cXCVWykv/no-glow.png"

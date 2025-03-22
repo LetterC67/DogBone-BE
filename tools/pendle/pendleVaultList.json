@@ -34,5 +34,14 @@
         "yt": "0x1a1b312378e42de5495d986c7948075a4723e660",
         "sy": "0xb261266cb30c255cb9c73ebf4a3ead9398d23ab4",
         "token": "0x9f0df7799f6fdad409300080cff680f5a23df4b1"
+    },
+    {
+        "name": "aUSDC",
+        "vault": "0x3f5ea53d1160177445b1898afbb16da111182418",
+        "expiry": "2025-08-14T00:00:00.000Z",
+        "pt": "0x930441aa7ab17654df5663781ca0c02cc17e6643",
+        "yt": "0x18d2d54f42ba720851bae861b98a0f4b079e6027",
+        "sy": "0xc4a9d8b486f388cc0e4168d2904277e8c8372fa3",
+        "token": "0x578ee1ca3a8e1b54554da1bf7c583506c4cd11c6"
     }
 ]

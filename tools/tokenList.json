@@ -19955,6 +19955,22 @@
         "address": "0xBe27993204Ec64238F71A527B4c4D5F4949034C3",
         "logoURI": "https://v2.silo.finance/_next/static/media/PT_wstkscUSD.0068635d.svg",
         "chainId": 146
+      },
+      {
+        "symbol": "PT-aUSDC-14AUG2025",
+        "name": "PT aUSDC 14AUG2025",
+        "decimals": 6,
+        "address": "0x930441Aa7Ab17654dF5663781CA0C02CC17e6643",
+        "logoURI": "https://v2.silo.finance/_next/static/media/PT-aUSDC.265a368d.svg",
+        "chainId": 146
+      },
+      {
+        "symbol": "aUSDC",
+        "name": "Aave USDC",
+        "decimals": 6,
+        "address": "0x578Ee1ca3a8E1b54554Da1Bf7C583506C4CD11c6",
+        "logoURI": "https://storage.googleapis.com/prod-pendle-bucket-a/images/uploads/8a1a6cba-b2f2-41e7-b8c6-3d1f6d9a7d0e.svg",
+        "chainId": 146
       }
     ]
   }

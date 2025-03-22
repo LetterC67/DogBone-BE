@@ -56,6 +56,20 @@
       ]
     },
     {
+      "type": "Bone5",
+      "risk": "high",
+      "lists": [
+        {
+          "name": "Bone 5 - Silo PT-aUSDC (14 Aug) - scUSD (PT-aUSDC deposit) looping 12x leverage",
+          "vault": "0x558d6D6D53270ae8ba622daF123983D9F3c21792",
+          "token": "0x930441Aa7Ab17654dF5663781CA0C02CC17e6643",
+          "defaultLeverage": 10,
+          "maxLeverage": 12,
+          "points": 0
+        }
+      ]
+    },
+    {
       "type": "aave",
       "risk": "low",
       "lists": [
@@ -129,25 +143,31 @@
           "name": "Pendle PT-wstkscUSD",
           "vault": "0x6e4e95fab7db1f0524b4b0a05f0b9c96380b7dfa",
           "token": "0x9fb76f7ce5fceaa2c42887ff441d46095e494206",
-          "points": 12
+          "points": 0
         },
         {
           "name": "Pendle PT-wstkscETH",
           "vault": "0xd14117baf6ec5d12be68cd06e763a4b82c9b6d1d",
           "token": "0xe8a41c62bb4d5863c6eadc96792cfe90a1f37c47",
-          "points": 8 
+          "points": 0
         },
         {
           "name": "Pendle PT-stS",
           "vault": "0x3aef1d372d0a7a7e482f465bc14a42d78f920392",
           "token": "0xe5da20f15420ad15de0fa650600afc998bbe3955",
-          "points": 8
+          "points": 0
         },
         {
           "name": "Pendle PT-wOS",
           "vault": "0x4e82347bc41cfd5d62cef483c7f0a739a8158963",
           "token": "0x9f0df7799f6fdad409300080cff680f5a23df4b1",
-          "points": 8
+          "points": 0
+        },
+        {
+          "name": "Pendle PT-aUSDC",
+          "vault": "0x3f5ea53d1160177445b1898afbb16da111182418",
+          "token": "0x578ee1ca3a8e1b54554da1bf7c583506c4cd11c6",
+          "points": 0
         }
       ]
     },
@@ -339,6 +359,24 @@
           "name": "Silo scBTC (Market id 32)",
           "vault": "0x0A94e18bdbCcD048198806d7FF28A1B1D2590724",
           "token": "0xBb30e76d9Bb2CC9631F7fC5Eb8e87B5Aff32bFbd",
+          "points": 8
+        },
+        {
+          "name": "Silo wS (Market id 25)",
+          "vault": "0x016C306e103FbF48EC24810D078C65aD13c5f11B",
+          "token": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+          "points": 8
+        },
+        {
+          "name": "Silo scUSD (Market id 46)",
+          "vault": "0xe6605932e4a686534D19005BB9dB0FBA1F101272",
+          "token": "0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE",
+          "points": 12
+        },
+        {
+          "name": "Silo wS (Market id 41)",
+          "vault": "0xE75B0B3d24B988Ada7136F6b8D491b727c36c27F",
+          "token": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
           "points": 8
         }
       ]
